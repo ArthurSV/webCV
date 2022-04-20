@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(./assets/raining.gif);
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+
+.menuBox {
+    padding: 224px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+
+}
+
+.menuBox div {
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    border: 2px solid rgb(0, 154, 34);
+    
+    border-radius: 5px;
+    width: 600px;
+    height: 446px;
+
+}
+
+.menuBox div i {
+    position: relative;
+    left: 37px;
+    bottom: 12px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-size: x-small;
+
+}
+
+.menuBox div h1 p {
+    position: relative;
+    bottom: 43px;
+    left: 54px;
+    font-size: 13px;
+    color: rgba(5, 146, 10, 0.559);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.menuBox div h2 p {
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(5, 146, 10, 0.99);
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+
+}
+
+.menuBox div h2 ul {
+    text-align: left;
+    list-style: none;
+    width: 290px;
+    display: flexbox;
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+    gap: 12px;
+    
+    
+}
+.menuBox div h3 ul{
+    text-align: left;
+    list-style: none;
+    width: 290px;
+    display: flexbox;
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+    gap: 12px;
+}
+.senaiLogo{
+    position: relative;
+    top: 5px;
+    width: 76px;
+    height: 140;
+    border-radius: 5px;
+}
+.menuBox div h2 ul li{
+    position: relative;
+    box-shadow: 2px 3px 5px 0px #1b1a1c70;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.sobreMim {
+/* <p> sobreMim */
+    bottom: 36px;
+    position: relative;
+    left: 32px;
+    width: 130px;
+    color: rgb(5, 146, 10);
+    /* border: 2px solid red; */
+    text-align: center;
+    
+}
+
+.mgo {
+    /* hrefMgo */
+    position: relative;
+    left: 3px;
+    color: rgb(224, 22, 0);
+    text-decoration: none;
+
+}
+
+#jsIcon{
+    font-size: xx-large;
+    color: rgb(246, 255, 0);
+    position: sticky;
+}
+#javaIcon{
+    font-size: xx-large;
+    position: sticky;
+    color: rgb(255, 208, 0);
+}
+#nodeJs{
+    color: rgb(255, 55, 0);
+    font-size: xx-large;
+    position: sticky;
+}
+#angular{
+    color: rgb(0, 255, 174);
+    font-size: xx-large;
+    justify-content: safe;
+    position: sticky;
+}
+#listaIcon li:hover{
+    transform: scale(1.1);
+}
+#listaIcon li {
+    /* itemsListaTecnologia */
+    list-style-type: none;
+    /* border: 1px solid red; */
+    position: relative;
+    width: 134px;
+    transition: .3s;
+}
+#listaIcon{
+    position: relative;
+    bottom: 67px;
+    left: 25px;
+    display: flex;
+    gap: 3px;
+    width: 130px;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+#liTwo{
+    /* listaTecnologias */
+        height: 56px;
+        /* border: 2px solid red; */
+        position: relative;
+        bottom: 54px;
+        left: 86px;
+        
+        width: 170px;
+        box-shadow: 2px 3px 5px 0px #05cf1943;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #liTwo p{
+        color: rgba(116, 226, 162, 0.926);
+        position: relative;
+        left: 3px;
+        bottom: 63px;
+        width: 70px;
+        font-size: smaller;
+        /* border: 2px solid red; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+#liThre{
+    position: relative;
+    bottom: 48px;
+    margin: 0px;
+    padding-left: 0px;
+    left:99px ;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 3px 5px 0px #05cf1943;
+    border-radius: 5px;
+    width: 244px;
+    height: 58px;
+}
+
+#liThre p{
+    position: relative;
+    color: rgb(123, 139, 218);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    width: 96px;
+    bottom: 59px;
+    
+}
+#iconRedes li:hover{
+transform: scale(1.1);
+}
+#iconRedes{
+    display: flex;
+    /* border: 2px solid red; */
+    position: relative;
+    padding: 0px;
+    bottom: 69px;
+    left: 34px;
+    width: 170px;
+    height: 50px;
+    gap: 7px;
+}
+#iconRedes li{
+    list-style-type: none;
+/* border: 2px solid red; */
+width: 49px;
+transition: .2s;
+}
+#gitIcon{
+    position: sticky;
+    font-size: xxx-large;
+    color: rgb(212, 0, 255);
+    
+}
+#linkedIcon{
+    position: sticky;
+    font-size: xxx-large;
+    color: rgb(0, 26, 255);
+}
+#redditIcon{
+    position: sticky;
+    font-size: xxx-large;
+    color: dimgray;  
+}
